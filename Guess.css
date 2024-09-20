@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(44, 67, 67);
+  height: 100vh;
+  margin: 0;
+  /*background-color: #f0f0f0;*/
+  /*background-color: rgb(245, 151, 104);*/
+  background-color: rgb(205, 227, 230);
+}
+.game {
+  text-align: center;
+  /*background-color: white;*/
+  background-color: rgb(169, 210, 215);
+  padding: 20px;
+  border: 2px solid rgb(10, 50, 55);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(97, 145, 151);
+}
+.game p {
+  padding: 5px 5px;
+  margin: 10px 30px;
+  /*letter-spacing: 1.5;*/
+  line-height: 1.5;
+  font-size: 1.5em;
+}
+input[type="number"] {
+  padding: 5px;
+  font-size: 1em;
+  width: 100px;
+  margin: 5px 5px;
+  background-color: rgb(189, 220, 224);
+  border: 2px solid rgb(10, 50, 55);
+}
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: rgb(44, 67, 67);
+  background-color: rgb(189, 220, 224);
+  border: 2px solid rgb(10, 50, 55);
+}
+button:hover {
+  background-color: rgb(189, 220, 224);
+}
+button:active {
+  background-color: rgb(189, 220, 224);
+}
+#message {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
